@@ -48,7 +48,7 @@ const getDefaultMessage = (key) => {
 }
 
 const isLangRightToLeft = (lang) => {
-  return lang === "ar" || lang === "fa"
+  return lang === "de" || lang === "en"
 }
 
 const translateMessageId = (id, intl) => {
